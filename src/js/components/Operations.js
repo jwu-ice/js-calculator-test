@@ -5,8 +5,8 @@ class Operations {
   }
 
   bindEvents(onClick) {
-    this.element.addEventListener('click', ({ target }) => {
-      if (target.className !== 'operation') {
+    this.element.addEventListener("click", ({ target }) => {
+      if (target.className !== "operation") {
         return;
       }
 
